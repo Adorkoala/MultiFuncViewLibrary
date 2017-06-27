@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiFuncEditText">
+        <attr name="funcType" format="enum">
+            <enum name = "normal" value="-1"/>
+            <enum name="clearEdit" value="0"/>
+            <enum name="watchPwd" value="1"/>
+        </attr>
+        <attr name="eyeClose" format="reference"/>
+        <attr name="eyeOpen" format="reference"/>
+        <attr name="leftDrawableWidth" format="dimension"/>
+        <attr name="leftDrawableHeight" format="dimension" />
+        <attr name="rightDrawableWidth" format="dimension"/>
+        <attr name="rightDrawableHeight" format="dimension"/>
+    </declare-styleable>
+</resources>
